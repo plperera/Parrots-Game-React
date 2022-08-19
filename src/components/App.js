@@ -5,7 +5,7 @@ import Card from "./Card"
 export default function App(){
 
     const arr = []
-    for (let i = 0; i < 14 / 2; i++){
+    for (let i = 1; i < (14 + 1) / 2; i++){
         arr.push(i)
         arr.push(i)
     }
